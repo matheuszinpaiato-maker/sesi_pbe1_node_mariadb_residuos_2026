@@ -41,8 +41,6 @@ const listar = (req, res) => {
     const sql = 'SELECT * FROM usuario;'
     con.query(sql, (err, results) => {
         if (err) {
-            console.error(err)
-            res.status(500).json({ error: 'Erro ao buscar usuários' })
         } else {
             res.json(results)
         }
@@ -58,8 +56,6 @@ const alterar = (req, res) => {
         if (err) {
             console.error(err)
             res.status(500).json({ error: 'Erro ao alterar usuario' })
-        } else if (results.affectedRows === 0) {
-            res.status(404).json({ error: 'Usuario nao encontrado' })
         } else {
             res.json({ message: 'Usuario alterado com sucesso', results })
         }
@@ -74,8 +70,6 @@ const excluir = (req, res) => {
         if (err) {
             console.error(err)
             res.status(500).json({ error: 'Erro ao excluir usuario' })
-        } else if (results.affectedRows === 0) {
-            res.status(404).json({ error: 'Usuario nao encontrado' })
         } else {
             res.json({ message: 'Usuario excluido com sucesso' })
         }
