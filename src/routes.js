@@ -20,6 +20,7 @@ router.get('/ocorrencias',ocorrencias.listar)
 router.post('/ocorrencias',ocorrencias.cadastrar)
 router.put('/ocorrencias/:id',ocorrencias.alterar)
 router.delete('/ocorrencias/:id',ocorrencias.excluir)
+router.get('/ocorrencias/resumo', ocorrencias.resumo)
 
 
 

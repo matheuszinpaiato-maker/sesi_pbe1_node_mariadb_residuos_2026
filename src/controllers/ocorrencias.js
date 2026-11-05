@@ -61,9 +61,33 @@ const excluir = (req, res) => {
     })
 }
 
+const resumo = (req, res) => {
+    const sql1 = 'SELECT count(*) as "Total" FROM ocorrencia;'
+    const sql2 = 'SELECT * FROM ocorrencia;'
+    con.query(sql1, (err, results) => {
+        if (err) {
+            console.error(err)
+            res.status(500).json({ error: 'Erro ao contar total' })
+        } else {
+            const resposta = {}
+            resposta.media = results
+            con.query(sql2, (err, results) => {
+                if (err) {
+                    console.error(err)
+                    res.status(500).json({ error: 'Erro ao buscar ocorrencia' })
+                }else{
+                    resposta.eventos = results
+                    res.json(resposta)
+                }
+            })
+        }
+    })
+}
+
 module.exports = {
     cadastrar,
     listar,
     alterar,
-    excluir
+    excluir,
+    resumo
 }
