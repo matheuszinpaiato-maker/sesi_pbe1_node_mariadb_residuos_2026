@@ -26,7 +26,7 @@ Listar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/ocorrencias/listar-ocorrencias.png">
 Cadastrar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/ocorrencias/cadastrar-ocorrencias.png">
-<Excluir
+Excluir
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/ocorrencias/excluir-ocorrencias.png">
 Alterar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/ocorrencias/alterar-ocorrencias.png">
@@ -37,8 +37,8 @@ Resumo
 Listar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/usuarios/listar-usuarios.png">
 Cadastrar
-<img src="http://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/usuarios/cadastar-usuarios.png">
-<Excluir
+<img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/usuarios/cadastar-usuarios.png">
+Excluir
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/usuarios/excluir.png">
 Alterar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/usuarios/alterar-usuarios.png">
