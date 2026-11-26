@@ -1,7 +1,7 @@
 # sesi_pbe1_node_mariadb_residuos_2026
 A prefeitura de Amparo necessita realizar o Monitoramento de pontos de descarte irregular, para isso desenvolva um sistema para registrar locais onde foram identificados descartes de lixo, entulho ou resíduos eletrônicos.
 
-# Diagrama de Classes
+# Diagrama de classe
 Conceitual
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/der_residuos.png">
 
@@ -20,7 +20,7 @@ Conceitual
 - Rode o servidor no cmd utilizando o comando npm run dev
 - Abra o Insomnia e teste as HTTP requests seguindo o CRUD (Create, Read, Update, Delete), adicionando também o resumo (ocorrencia), login (usuario) e o patch (substitui o PUT no ocorrências)
 
-# Print dos testes com Insomnia
+# Print dos testes com insomnia
 # Ocorrencias:
 Listar
 <img src="https://github.com/matheuszinpaiato-maker/sesi_pbe1_node_mariadb_residuos_2026/blob/main/docs/ocorrencias/listar-ocorrencias.png">
